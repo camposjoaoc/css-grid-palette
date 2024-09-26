@@ -3,8 +3,10 @@
     display: grid;
     gap: 2vh;
     margin: 2vh;
-    grid-template-columns: 6;
-    grid-template-rows: 12;
+    /*1 fraction unit for each columns, 6 columns*/
+    grid-template-columns: repeat (6, 1fr);
+    /*1 fraction unit for each columns, 12 rows*/
+    grid-template-rows: repeat(12, 1fr);
 }
 
 .grid-item {
