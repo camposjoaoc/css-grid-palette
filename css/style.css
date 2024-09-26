@@ -3,6 +3,8 @@
     display: grid;
     gap: 2vh;
     margin: 2vh;
+    grid-template-columns: 6;
+    grid-template-rows: 12;
 }
 
 .grid-item {
